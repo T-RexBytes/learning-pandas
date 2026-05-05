@@ -1,0 +1,51 @@
+Series = A Pandas 1-Dimensional labeled array that can hold any data type
+Think of it like a single column in a spreadsheet (1-Dimensional)
+
+basically it means that it has some values inside of a label like a single column 
+and every element has it's own index.
+
+0    100
+1    102
+2    104
+dtype: int64
+
+
+in the output ther will br 2 columns for now
+the 1st column is for the indexes of the values that are in the 2nd column.
+and at the very below there will be the meta data about the series.
+INT64 means 64 bit Integer, FLOAT64 means 64 bit float value things like this.
+
+if the data is mixed with different types of data then the Series's meta data type will be object
+
+series = pd.Series(data)
+now when we construct a Series object, we can set index with custom labels, 
+the default label for each variable starts from 0 and then increases accordinly
+
+to increase the readability we pass a index key word to the construcor
+we can pass a list, tuple, dictionary, numpy array and even another series.
+
+like : series = pd.Series(data, index = ["a", "b", "c"])
+
+a    100
+b    102
+c    104
+dtype: int64
+
+now any time if we need to access any values in the series we could use the loc property.
+loc means location by label we use the [] operator and then inside we use a label.
+
+example : 
+
+print(series.loc["a"]) 
+by this we will get the value which is in the label "a".
+and if given invalid key we would get a keyvalue error.
+
+series.loc["c"] = 200 
+we could also change the value at any given valid label using loc
+
+print(series.iloc[0]) 
+iloc is basically integer location, by which we are accessing the series.
+by this we will get the value which are integer position
+
+print(series[condition]) 
+by passing the series some condition we could make the series give output basis on that.
