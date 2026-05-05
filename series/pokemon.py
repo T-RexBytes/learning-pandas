@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd 
 
 pokedex = {"firetype" : ["Charmender", "Charmelion", "Charizard"], 
            "watertype" : ["Squirtle", "Wartortle", "Blastoise"], 
@@ -9,5 +9,5 @@ pokemon = pd.Series(pokedex)
 
 
 
-print(pokemon.loc["electrictype"][1])
+print(pokemon)
 
