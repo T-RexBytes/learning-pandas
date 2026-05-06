@@ -1,0 +1,25 @@
+we can import csv or json file using pandas.
+
+here's how to import a csv file:
+df = pd.read_csv("file name") or df = pd.read_csv("file path")
+at the quoted place we could give the name of the file it the code and the file is in same dir
+or we could just pass on the file path to the method
+
+and in return it will only a tranculated data from the csv file
+it will show only the first 5 data element of the dataframe (head)
+and it will show only the first last data element of the dataframe (tail)
+
+we could see the whole data at one using the to_string() method
+but if the data is too big then our environment could brake too
+
+here's how to import a json file:
+df = pd.read_json("file name") or df = pd.read_json("file path")
+at the quoted place we could give the name of the file it the code and the file is in same dir
+or we could just pass on the file path to the method
+
+and in return it will only a tranculated data from the json file
+it will show only the first 5 data element of the dataframe (head)
+and it will show only the first last data element of the dataframe (tail)
+
+we could see the whole data at one using the to_string() method
+but if the data is too big then our environment could brake too
