@@ -1,0 +1,210 @@
+date,category,amount,note
+2026-01-03,Food,240,Burger
+2026-01-04,Transport,180,Uber
+2026-01-05,Subscriptions,499,Netflix
+2026-01-06,Shopping,1450,T-shirt
+2026-01-07,Entertainment,620,Movie
+2026-01-08,Bills,2100,Electricity
+2026-01-09,Food,320,Pizza
+2026-01-10,Gaming,1299,Steam Game
+2026-01-11,Education,450,Notebook
+2026-01-12,Health,780,Medicine
+2026-01-13,Transport,95,Metro
+2026-01-14,Food,160,Coffee
+2026-01-15,Shopping,2200,Sneakers
+2026-01-16,Bills,1450,Internet
+2026-01-17,Entertainment,850,Concert
+2026-01-18,Subscriptions,299,Spotify
+2026-01-19,Food,410,Sushi
+2026-01-20,Gaming,2499,Game Pass
+2026-01-21,Transport,260,Taxi
+2026-01-22,Education,980,Online Course
+2026-01-23,Health,1200,Dentist
+2026-01-24,Food,90,Tea
+2026-01-25,Shopping,3500,Headphones
+2026-01-26,Bills,2700,Rent
+2026-01-27,Entertainment,400,Bowling
+2026-01-28,Subscriptions,799,Adobe
+2026-01-29,Food,280,Wrap
+2026-01-30,Transport,70,Bus
+2026-02-01,Education,320,Pens
+2026-02-02,Gaming,699,Mobile Game
+2026-02-03,Health,540,Vitamins
+2026-02-04,Food,450,Pasta
+2026-02-05,Shopping,1800,Jacket
+2026-02-06,Bills,980,Water Bill
+2026-02-07,Entertainment,1200,Theme Park
+2026-02-08,Transport,300,Rickshaw
+2026-02-09,Subscriptions,149,Cloud Storage
+2026-02-10,Food,210,Sandwich
+2026-02-11,Gaming,3200,Keyboard
+2026-02-12,Education,600,Reference Book
+2026-02-13,Health,890,Checkup
+2026-02-14,Transport,130,Fuel
+2026-02-15,Food,700,Steak
+2026-02-16,Shopping,2750,Backpack
+2026-02-17,Bills,1900,Phone Bill
+2026-02-18,Entertainment,350,Arcade
+2026-02-19,Subscriptions,999,YouTube Premium
+2026-02-20,Food,120,Donut
+2026-02-21,Gaming,4500,Gaming Mouse
+2026-02-22,Education,1500,Workshop
+2026-02-23,Health,300,Protein Bar
+2026-02-24,Transport,220,Cab
+2026-02-25,Food,560,Biryani
+2026-02-26,Shopping,800,Cap
+2026-02-27,Bills,2400,Gas Bill
+2026-02-28,Entertainment,980,Karaoke
+2026-03-01,Subscriptions,249,Music App
+2026-03-02,Food,190,Fries
+2026-03-03,Gaming,2200,Controller
+2026-03-04,Education,430,Calculator
+2026-03-05,Health,1500,Eye Test
+2026-03-06,Transport,85,Train
+2026-03-07,Food,670,BBQ
+2026-03-08,Shopping,3100,Watch
+2026-03-09,Bills,1750,Electric Repair
+2026-03-10,Entertainment,740,Streaming Rental
+2026-03-11,Subscriptions,399,VPN
+2026-03-12,Food,260,Noodles
+2026-03-13,Gaming,1800,Game Credits
+2026-03-14,Education,2100,Tuition
+2026-03-15,Health,470,Pharmacy
+2026-03-16,Transport,150,Auto
+2026-03-17,Food,390,Tacos
+2026-03-18,Shopping,920,Sunglasses
+2026-03-19,Bills,2800,Maintenance
+2026-03-20,Entertainment,1300,Stand-up Show
+2026-03-21,Subscriptions,199,News App
+2026-03-22,Food,175,Ice Cream
+2026-03-23,Gaming,2600,SSD Upgrade
+2026-03-24,Education,540,Stationery
+2026-03-25,Health,650,Bandages
+2026-03-26,Transport,340,Airport Taxi
+2026-03-27,Food,480,Ramen
+2026-03-28,Shopping,1999,Jeans
+2026-03-29,Bills,3200,House Rent
+2026-03-30,Entertainment,560,Comedy Club
+2026-03-31,Subscriptions,349,Antivirus
+2026-04-01,Food,130,Bagel
+2026-04-02,Gaming,1100,Indie Game
+2026-04-03,Education,1250,Exam Fee
+2026-04-04,Health,2200,Physiotherapy
+2026-04-05,Transport,180,Metro Card
+2026-04-06,Food,720,Seafood
+2026-04-07,Shopping,450,Wallet
+2026-04-08,Bills,1600,WiFi Bill
+2026-04-09,Entertainment,2000,Concert Ticket
+2026-04-10,Subscriptions,129,Podcast App
+2026-04-11,Food,350,Cake
+2026-04-12,Gaming,3300,Graphics Card Deposit
+2026-04-13,Education,700,Lab Manual
+2026-04-14,Health,520,Pain Relief
+2026-04-15,Transport,100,Local Bus
+2026-04-16,Food,430,Dumplings
+2026-04-17,Shopping,2800,Hoodie
+2026-04-18,Bills,2100,Electric Bill
+2026-04-19,Entertainment,780,Cinema
+2026-04-20,Subscriptions,599,Office Suite
+2026-04-21,Food,240,Salad
+2026-04-22,Gaming,1500,Game Skin
+2026-04-23,Education,390,Markers
+2026-04-24,Health,980,Supplements
+2026-04-25,Transport,260,Ride Share
+2026-04-26,Food,610,Fried Rice
+2026-04-27,Shopping,3700,Smartwatch
+2026-04-28,Bills,2900,Apartment Rent
+2026-04-29,Entertainment,420,Escape Room
+2026-04-30,Subscriptions,249,Cloud Backup
+2026-05-01,Food,150,Croissant
+2026-05-02,Gaming,2800,Mechanical Keyboard
+2026-05-03,Education,1800,Certification
+2026-05-04,Health,730,Doctor Visit
+2026-05-05,Transport,120,Scooter Fuel
+2026-05-06,Food,520,Kebab
+2026-05-07,Shopping,980,Belt
+2026-05-08,Bills,1400,Water Supply
+2026-05-09,Entertainment,950,Live Match
+2026-05-10,Subscriptions,399,Design App
+2026-05-11,Food,300,Burrito
+2026-05-12,Gaming,2100,VR Accessory
+2026-05-13,Education,250,Flashcards
+2026-05-14,Health,1650,Blood Test
+2026-05-15,Transport,190,Taxi Ride
+2026-05-16,Food,460,Hotdog
+2026-05-17,Shopping,2300,Bluetooth Speaker
+2026-05-18,Bills,2600,Property Tax
+2026-05-19,Entertainment,680,Museum
+2026-05-20,Subscriptions,179,Ebook Service
+2026-05-21,Food,210,Pancakes
+2026-05-22,Gaming,3900,Monitor
+2026-05-23,Education,820,Practice Papers
+2026-05-24,Health,410,First Aid
+2026-05-25,Transport,310,Train Ticket
+2026-05-26,Food,550,Thali
+2026-05-27,Shopping,1200,Perfume
+2026-05-28,Bills,1750,Electricity
+2026-05-29,Entertainment,1450,Music Festival
+2026-05-30,Subscriptions,899,Creative Cloud
+2026-05-31,Food,140,Milkshake
+2026-06-01,Gaming,1750,Joystick
+2026-06-02,Education,480,Notebook Set
+2026-06-03,Health,870,Skincare
+2026-06-04,Transport,160,Ferry
+2026-06-05,Food,690,Grill Chicken
+2026-06-06,Shopping,3200,Tablet
+2026-06-07,Bills,2300,Internet Renewal
+2026-06-08,Entertainment,540,Theater
+2026-06-09,Subscriptions,299,Fitness App
+2026-06-10,Food,230,Muffin
+2026-06-11,Gaming,260,In-game Coins
+2026-06-12,Education,1400,Seminar
+2026-06-13,Health,980,Clinic Fee
+2026-06-14,Transport,280,Parking
+2026-06-15,Food,510,Curry
+2026-06-16,Shopping,1600,Shoes
+2026-06-17,Bills,3100,Annual Repair
+2026-06-18,Entertainment,890,Amusement Park
+2026-06-19,Subscriptions,1299,Software License
+2026-06-20,Food,260,Smoothie
+2026-06-21,Gaming,1450,Headset
+2026-06-22,Education,670,Guidebook
+2026-06-23,Health,1250,Therapy
+2026-06-24,Transport,90,Subway
+2026-06-25,Food,740,Buffet
+2026-06-26,Shopping,2600,Luggage
+2026-06-27,Bills,1800,Gas Refill
+2026-06-28,Entertainment,310,Mini Golf
+2026-06-29,Subscriptions,349,Photo Storage
+2026-06-30,Food,180,Cupcake
+2026-07-01,Gaming,4200,Console Repair
+2026-07-02,Education,950,Online Tutorial
+2026-07-03,Health,560,Prescription
+2026-07-04,Transport,240,Uber Pool
+2026-07-05,Food,620,Dim Sum
+2026-07-06,Shopping,4100,Office Chair
+2026-07-07,Bills,2700,Monthly Rent
+2026-07-08,Entertainment,770,Opera Ticket
+2026-07-09,Subscriptions,220,Language App
+2026-07-10,Food,330,Nachos
+2026-07-11,Gaming,980,Mouse Pad
+2026-07-12,Education,530,Dictionary
+2026-07-13,Health,1420,X-ray
+2026-07-14,Transport,110,Bike Repair
+2026-07-15,Food,470,Falafel
+2026-07-16,Shopping,1850,Desk Lamp
+2026-07-17,Bills,1500,Mobile Recharge
+2026-07-18,Entertainment,1150,Water Park
+2026-07-19,Subscriptions,650,Streaming Bundle
+2026-07-20,Food,290,Waffles
+2026-07-21,Gaming,3100,Racing Wheel
+2026-07-22,Education,760,Workbook
+2026-07-23,Health,640,Massage
+2026-07-24,Transport,200,Car Wash
+2026-07-25,Food,580,Lasagna
+2026-07-26,Shopping,2950,Wireless Earbuds
+2026-07-27,Bills,3400,Home Insurance
+2026-07-28,Entertainment,500,Board Games
+2026-07-29,Subscriptions,150,Note App
+2026-07-30,Food,220,Juice
+2026-07-31,Gaming,2300,Expansion Pack
