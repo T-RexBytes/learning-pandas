@@ -1,3 +1,5 @@
+# 1. Importing a CSV File using pandas
+
 we can import csv or json file using pandas.
 
 here's how to import a csv file:
@@ -11,6 +13,8 @@ and it will show only the first last data element of the dataframe (tail)
 
 we could see the whole data at one using the to_string() method
 but if the data is too big then our environment could brake too
+
+# 2. Importing a JSON File using pandas
 
 here's how to import a json file:
 df = pd.read_json("file name") or df = pd.read_json("file path")

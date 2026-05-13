@@ -1,3 +1,5 @@
+# 1. Filtering Data from a DataFrame
+
 we could filter the data from our made DataFrame
 
 df[df["Height"] >= 2]
@@ -6,9 +8,13 @@ by this we are passing the DataFrame a single columns's value which is the df["H
 and passing the condition.
 we could save this into a variable and then show this then
 
+# 2. Using OR Operator in Conditions
+
 as of the condition we could use the or and and oparator
 but make sure to use or oparator we have to use | this c sytax oparator
 as pandas doesn't support the normal or syntax
+
+# 3. Using AND and Equals To Operators in Conditions
 
 and for the and oparator we have to use the & which is also a c type syntax
 and also for the equals to oparator we have to use the == which is also a c type syntax

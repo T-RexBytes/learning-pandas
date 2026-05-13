@@ -46,3 +46,29 @@
 ## Notes
 - Worked mainly with the Pokémon CSV/JSON datasets present in each folder
 - Representative scripts: [series/series.py](series/series.py), [data-frames/data-frame.py](data-frames/data-frame.py), [selecting/select.py](selecting/select.py), [selecting/prog.py](selecting/prog.py), [filtering/filter.py](filtering/filter.py), [import/import.py](import/import.py), [aggregation/aggregation.py](aggregation/aggregation.py)
+
+
+## Day 9 — Sorting & resetting index
+- Sorted DataFrames by column values using `df.sort_values()`
+- Sorted by index with `df.sort_index()`
+- Reset index with `df.reset_index()` (with and without `drop=True`)
+
+## Day 10 — Handling missing data
+- Detected missing values with `df.isna()` and `df.isnull()`
+- Filled missing values using `df.fillna()`
+- Dropped missing values with `df.dropna()`
+- Understood inplace vs assignment for these operations
+
+## Day 11 — Data types & conversion
+- Checked data types with `df.dtypes` and `df.info()`
+- Converted column types using `df.astype()`
+- Parsed dates with `pd.to_datetime()`
+
+## Day 12 — Value counts & unique values
+- Used `df["col"].value_counts()` to count unique values
+- Used `df["col"].unique()` and `df["col"].nunique()`
+
+## Day 13 — Basic plotting
+- Plotted Series and DataFrames using `.plot()`
+- Created bar, line, and histogram plots
+- Used `matplotlib.pyplot` for further customization

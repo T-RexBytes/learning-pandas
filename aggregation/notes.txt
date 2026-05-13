@@ -1,13 +1,16 @@
+# 1. Introduction to Aggregate Functions
+
 aggregate functions = Reduces a set of values into a single summary value
 Used to summarize and analyze data
 Often used with the groupby() function
 
+# 2. Using Aggregate Functions with a DataFrame
 
 now if we want to aggregate something we will have to pass the aggregate method to the DataFrame
-like this : 
+like this :
 
 df.mean() now this only works with numreic numbers only so it will throw a error as not every value is a number in my df
-df.mean(numeric_only=True) by using this we are passing the method to work only with the numeric numbers 
+df.mean(numeric_only=True) by using this we are passing the method to work only with the numeric numbers
 now this will work
 
 like this :

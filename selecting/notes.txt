@@ -1,4 +1,6 @@
-we could select data by column from a DataFrame like this : 
+# 1. Selecting a Single Column from a DataFrame
+
+we could select data by column from a DataFrame like this :
 
 df["Name"] or df["Height"]
 
@@ -7,7 +9,7 @@ df["Name"] or df["Height"]
 2        Venusaur
 3      Charmander
 4      Charmeleon
-          ...    
+...
 145       Moltres
 146       Dratini
 147     Dragonair
@@ -15,13 +17,19 @@ df["Name"] or df["Height"]
 149        Mewtwo
 
 by this what we are doing is we are just selecting the specified column form the DataFrame
+
+# 2. Selecting Multiple Columns from a DataFrame
+
 and we could actually send more than one column name specifically like :
- 
+
 df[["Name", "Height", "Weight"]]
 
 here we sending the names of the columns as of a python list.
 
-           Name  Weight  Height
+```
+       Name  Weight  Height
+```
+
 0     Bulbasaur     6.9     0.7
 1       Ivysaur    13.0     1.0
 2      Venusaur   100.0     2.0
@@ -34,15 +42,17 @@ here we sending the names of the columns as of a python list.
 148   Dragonite   210.0     2.2
 149      Mewtwo   122.0     2.0
 
+# 3. Selecting Rows using loc()
 
-
-now we could also select values from the rows too like this : 
+now we could also select values from the rows too like this :
 
 df.loc[0] now this is for the default indexing that pandas provide for the DataFrame
 
 df.loc["Carizard"] now to use this we have to change the default labeling through the index_col in the df ini.
 
-we could also specify the data in the selected row too 
+# 4. Selecting Specific Columns from a Selected Row using loc()
+
+we could also specify the data in the selected row too
 like passing this :
 df.loc["Name", ["Height", "Weight"]] we pass a python list for the information we need to see
 this will show the information of the passed label with the info of height and Weight
@@ -51,6 +61,7 @@ Height    0.4
 Weight    6.0
 Name: Pikachu, dtype: float64
 
+# 5. Selecting a Range of Rows using Slicing with loc()
 
 using the slicing method we could also see data in a series of the given data like this :
 
@@ -58,8 +69,11 @@ print(df.loc["Pikachu" : "Moltres", ["Height", "Weight"]])
 
 by this we selecting the data from Pikachu to Moltres and we want to see the height and weight of them
 
-            Height  Weight
-Name                      
+```
+        Height  Weight
+```
+
+Name
 Pikachu        0.4     6.0
 Raichu         0.8    30.0
 Sandshrew      0.6    12.0
@@ -72,13 +86,14 @@ Articuno       1.7    55.4
 Zapdos         1.6    52.6
 Moltres        2.0    60.0
 
+# 6. Selecting Rows using iloc()
 
-we could also use the iloc method like this : 
+we could also use the iloc method like this :
 
-df.iloc[0:11] 
+df.iloc[0:11]
 by this we are doing that show the data from index 0 to 11
-            No  Type1   Type2  Height  Weight  Legendary
-Name                                                    
+No  Type1   Type2  Height  Weight  Legendary
+Name
 Bulbasaur    1  Grass  Poison     0.7     6.9          0
 Ivysaur      2  Grass  Poison     1.0    13.0          0
 Venusaur     3  Grass  Poison     2.0   100.0          0
@@ -89,15 +104,17 @@ Squirtle     7  Water     NaN     0.5     9.0          0
 Wartortle    8  Water     NaN     1.0    22.5          0
 Blastoise    9  Water     NaN     1.6    85.5          0
 
-df.iloc[0:11:3] 
-by this we are doing that show the data from index 0 to 11 and to only show the data skipping 3 indexes 
-            No  Type1   Type2  Height  Weight  Legendary
-Name                                                    
+df.iloc[0:11:3]
+by this we are doing that show the data from index 0 to 11 and to only show the data skipping 3 indexes
+No  Type1   Type2  Height  Weight  Legendary
+Name
 Bulbasaur    1  Grass  Poison     0.7     6.9          0
 Charmander   4   Fire     NaN     0.6     8.5          0
 Squirtle     7  Water     NaN     0.5     9.0          0
 Caterpie    10    Bug     NaN     0.3     2.9          0
 
-we could also select the series of columns we like to see by this : 
+# 7. Selecting Specific Rows and Columns using iloc()
+
+we could also select the series of columns we like to see by this :
 print(df.iloc[0:11:3, 0:3])
 here we do is select the column between the 0 to 3 index ones from the DataFrame.

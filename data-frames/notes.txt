@@ -1,27 +1,36 @@
+# 1. What is a DataFrame
+
 DataFrame = A tabular data structure with rows AND columns. (2 Dimensional)
 Similar to an Excel spreadsheet
 
+# 2. Creating a DataFrame using a Dictionary
 
 now if we pass dictoionary value to the DataFrame constructor and then print that we will get a tabular ouput
 
-df = pd.DataFrame(data) 
+df = pd.DataFrame(data)
 here the D and F in DataFrame is in big letter means this is a constructor not a fucntion
 and giving it a dictionary it gives out it as a tabular output
 and upon printing we get this type of thing
 
-    Name  Age
+```
+Name  Age
+```
+
 0  Robin   20
 1   Alex   21
 2  Tunip   21
 
+# 3. Creating Custom Index Labels in a DataFrame
+
 now as of the same we did for the series we could also custom index this dataframes like
 df = pd.DataFrame(data, index = ["Emplpyee 1", "Emplpyee 2", "Emplpyee 3"])
 by doing this we are labeling the existing data. it gives out a output like this
-             Name  Age
+Name  Age
 Emplpyee 1  Robin   20
 Emplpyee 2   Alex   21
 Emplpyee 3  Tunip   21
 
+# 4. Using loc() in a DataFrame
 
 now we could also use the loc feature in dataframes too
 print(df.loc["Emplpyee 1"])
@@ -36,6 +45,8 @@ here we could see that as it was in the data labeled as of name and age it showe
 and below that we get the custom name that we have given which is Employee 1 and with the datatype of the dataset which is obeject here
 as we have passed the specific index through the loc property, which will show as of meta data at the end of the output
 
+# 5. Using iloc() in a DataFrame
+
 now we could also use the iloc property also here
 print(df.iloc[0])
 by this we are getting thing from the 0th index of the dataframe.
@@ -47,16 +58,23 @@ Name: Emplpyee 1, dtype: object
 now if we had set a custom index for our data then it will show up as of the metadata
 and if we haven't then the index that we are passing will show up as of meta data.
 
+# 6. Adding a New Column to a DataFrame
+
 now we could also add new column to out dataframe
 df["job"] = ["Programer", "Tester", "N/A"]
 by this i added a new column named job where i already passed the job for the 3 person i had as a name in the dataset
 
-             Name  Age        job
+```
+         Name  Age        job
+```
+
 Emplpyee 1  Robin   20  Programer
 Emplpyee 2   Alex   21     Tester
 Emplpyee 3  Tunip   21        N/A
 
 this works just as fine upon running, and the new column has appeared at the end column
+
+# 7. Adding New Rows to a DataFrame
 
 now we could also add rows to our dataframe too
 and to do that we have to make a total new dataframe and then we have to concat them together
@@ -68,16 +86,20 @@ now this this where we made the new row with the same skeleton as the datafarme 
 if we forgot to put anything which is in the main dataframe then upon adding it will show as a NaN
 now i have also added a custom index also here which updates the listing names, if haven't it simply shows 0
 
+# 8. Adding Multiple Rows to a DataFrame
+
 here in the new_row dataframe we could also actually add multiple datas and with that multiple custom indexes too
 
 new_rows = pd.DataFrame([{"Name" : "Cole", "Age" : 25, "job" : "Senior Developer"},
-                        {"Name" : "Eugene", "Age" : 19, "job" : "Intern"}
-                    ], index = ["Employee 4", "Intern"])
+{"Name" : "Eugene", "Age" : 19, "job" : "Intern"}
+], index = ["Employee 4", "Intern"])
 
 just like this we have added this thing as of multiple row. as we are making things in a python list
 and these are also dictionary
 so if every needed thing if hasn't been given then it'll show NaN
 and at the case of index it will show same as the single on 0
+
+# 9. Concatenating DataFrames using concat()
 
 now here we will be adding the new row into the main dataframe
 
@@ -88,5 +110,3 @@ and while passing the dataframe to the concat method we are passing it as a pyth
 and in the pyton list we add every needed dataframe that we need to concat / add.
 and also yes the order matters too in the mentioned list
 and also we have to make sure in which dataframe we want to add the new row // here used df
-
-
