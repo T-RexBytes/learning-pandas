@@ -1,0 +1,78 @@
+Data cleaning = the process of fixing/removing : incomplete, incorrect, or irrelevant data.
+~75% of work done with Pandas is data cleaning
+
+let's say we have to drop some column which are not irrelevant
+we will use drop function for this
+using this drop function we could remove columns but it returns a new DataFrame so we have to store it.
+
+df.drop(columns = ["Legendary"])
+df.dropna(subset = ["Type2"])
+df.fillna({"Type2" : "None"})
+here i have passed the dictionary where i have mentioned to fill any not available values in the Type2 column with None.
+df["Type1"] = df["Type1"].replace({"Grass" : "GRASS"})
+df[["Type1", "Type2"]] = df[["Type1", "Type2"]].replace({"Grass": "GRASS", "Watre": "WATER"})
+df["Name"] = df["Name"].str.lower()
+df["Legendary"] = df["Legendary"].astype(bool)
+df.drop_duplicates()
+
+1. Introduction to Data Cleaning
+Data cleaning = the process of fixing/removing : incomplete, incorrect, or irrelevant data.
+~75% of work done with Pandas is data cleaning
+
+2. Removing Irrelevant Columns
+Let's say we have to drop some columns which are not relevant.
+We will use the drop function for this. Using this drop function we could remove columns but it returns a new DataFrame so we have to store it.
+
+	df.drop(columns = ["Legendary"])
+
+By this we are using the drop function and passing the columns keyword with the python list with the column names that are irrelevant.
+
+3. Handling Missing Data (Removing Rows)
+Now if we have to handle the missing data, we have to use the dropna() function. dropna means drop not available.
+
+	df.dropna(subset = ["Type2"])
+
+Same as the drop function, we are passing the subset keyword with the python list holding the rows which are not available in the DataFrame.
+
+4. Handling Missing Data (Filling Values)
+Now instead of just making the not available values disappear, we could also fill them too.
+By using the fillna() function we could fill the not available data in the DataFrame.
+We have to pass a dictionary with the column information where the data is not available and we could set them as of our liking to be shown.
+
+	df.fillna({"Type2" : "None"})
+
+Here I have passed the dictionary where I have mentioned to fill any not available values in the Type2 column with None.
+
+5. Fixing Inconsistent Values
+Now we could also fix some inconsistent values too.
+First we have to select the column, then we will call the replace() and then pass it a dictionary holding what to change. This is same as working with some series.
+
+	df["Type1"] = df["Type1"].replace({"Grass" : "GRASS"})
+
+This will replace any instance of Grass in the Type1 column with GRASS.
+
+We could also change more columns like this:
+
+	df[["Type1", "Type2"]] = df[["Type1", "Type2"]].replace({"Grass": "GRASS", "Watre": "WATER"})
+
+6. Standardizing Data (e.g., Lowercase Names)
+We could standardize data to like minimizing the names of something from some column.
+We use .str.lower() function to achieve this.
+
+	df["Name"] = df["Name"].str.lower()
+
+This will make the Name column's all names appear as in lower case.
+
+7. Changing Data Types
+We could also make some data's type change to something else.
+Like if we have some data in 0 & 1 as of true & false, we could change them to directly appear as bool with the help of astype(datatype).
+
+	df["Legendary"] = df["Legendary"].astype(bool)
+
+8. Removing Duplicate Values
+To remove any duplicate values from the DataFrame we could use the drop_duplicates().
+This returns a separate DataFrame so we have to save it.
+
+	df.drop_duplicates()
+
+By this we could remove the duplicates from the DataFrame.
